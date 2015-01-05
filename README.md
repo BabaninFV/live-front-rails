@@ -1,6 +1,6 @@
 # Live Front
 
-Useful helpers used at [Live Typing](http://ltst.ru).
+Collection of useful helpers and workflows used at [Live Typing](http://ltst.ru).
 
 ## List of helpers
 
