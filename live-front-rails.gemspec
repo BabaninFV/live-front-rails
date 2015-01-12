@@ -1,7 +1,6 @@
 # coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'live_front/version'
+require File.expand_path('../lib/live-front/version', __FILE__)
+# require File.expand_path('../lib/live_front', __FILE__)
 
 Gem::Specification.new do |spec|
   spec.name          = 'live-front-rails'
@@ -10,10 +9,10 @@ Gem::Specification.new do |spec|
   spec.email         = ['jastkand@gmail.com']
   spec.summary       = %q{Useful helpers used at Live Typing}
   spec.description   = %q{Useful helpers used at Live Typing}
-  spec.homepage      = ''
+  spec.homepage      = 'https://github.com/LiveTyping/live-front-rails'
   spec.license       = 'MIT'
 
-  spec.files         = `git ls-files -z`.split("\x0")
+  spec.files         = `git ls-files`.split("\n")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']

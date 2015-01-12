@@ -4,7 +4,7 @@ require 'active_support'
 require 'action_view'
 require 'action_controller'
 
-require 'live_front'
+require 'live-front-rails'
 
 include ActionView::Context
 include ActionView::Helpers::FormTagHelper
