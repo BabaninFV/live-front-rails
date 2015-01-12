@@ -26,12 +26,3 @@ end
 
 require 'rspec/core'
 require 'rspec/mocks'
-
-# RSpec.configure do |config|
-#   config.before :all do
-#     include ActionView::Helpers::FormTagHelper
-#     include LiveFront::ApplicationHelper
-#     include LiveFront::TabHelper
-#     include ActionView::Context
-#   end
-# end
