@@ -84,7 +84,7 @@ nav_link(path: 'tree#show', params: {state: [:_blank, :active]}) { "Hello" }
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'live-front-rails'
+gem 'live-front-rails', github: 'LiveTyping/live-front-rails'
 ```
 
 And then execute:
