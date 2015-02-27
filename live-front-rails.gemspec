@@ -1,14 +1,13 @@
 # coding: utf-8
 require File.expand_path('../lib/live-front/version', __FILE__)
-# require File.expand_path('../lib/live_front', __FILE__)
 
 Gem::Specification.new do |spec|
   spec.name          = 'live-front-rails'
   spec.version       = LiveFront::VERSION
   spec.authors       = ['Andrey Krivko']
   spec.email         = ['jastkand@gmail.com']
-  spec.summary       = %q{Useful helpers used at Live Typing}
-  spec.description   = %q{Useful helpers used at Live Typing}
+  spec.summary       = 'Useful helpers used at Live Typing'
+  spec.description   = 'Useful helpers used at Live Typing'
   spec.homepage      = 'https://github.com/LiveTyping/live-front-rails'
   spec.license       = 'MIT'
 
