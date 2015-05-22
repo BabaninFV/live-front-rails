@@ -16,9 +16,6 @@ include LiveFront::ApplicationHelper
 include LiveFront::TabHelper
 include LiveFront::SignInFormHelper
 
-I18n.load_path += Dir[
-  Pathname.new(File.expand_path('../../config/locales', __FILE__)).join('*.{rb,yml}')
-]
 I18n.default_locale = :en
 
 class FooController < ActionController::Base
