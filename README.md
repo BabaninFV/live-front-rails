@@ -79,6 +79,14 @@ nav_link(path: 'tree#show', params: {state: [:_blank, :active]}) { "Hello" }
 # => '<li class="home active">Hello</li>'
 ```
 
+### SignInFormHelper
+
+Form helper to insert basic sign in form.
+
+```
+sign_in_form_for(:sessions, url: sessions_path, class: 'sign-in-form')
+```
+
 ## Installation
 
 Add this line to your application's Gemfile:

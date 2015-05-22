@@ -1,0 +1,45 @@
+.basic-sign-in-form {
+  max-width: 400px;
+  padding: 15px;
+  margin: 0 auto;
+
+  .sign-in-form-heading {
+    font-weight: 300;
+    margin-bottom: 15px;
+  }
+
+  .form-control {
+    background-color: #F5F5F5;
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 14px 10px;
+
+    &:active,
+    &:focus {
+      background-color: #fff;
+      z-index: 2;
+    }
+  }
+
+  input {
+    box-shadow: none;
+  }
+
+  input[type="email"] {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  input[type="password"] {
+    margin-top: -1px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .btn {
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+}

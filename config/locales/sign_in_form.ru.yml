@@ -1,0 +1,7 @@
+ru:
+  sign_in_form:
+    heading: Вход
+    form:
+      email: email
+      password: пароль
+      submit: Вход
