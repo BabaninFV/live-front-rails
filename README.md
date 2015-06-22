@@ -83,6 +83,14 @@ nav_link(path: 'tree#show', params: {state: [:_blank, :active]}) { "Hello" }
 
 Form helper to insert basic sign in form.
 
+Add `sign-in-form` styles to your styles file:
+
+```
+//= require sign-in-form
+```
+
+Use `sign_in_form_for` to insert form:
+
 ```
 sign_in_form_for(:sessions, url: sessions_path, class: 'sign-in-form')
 ```
